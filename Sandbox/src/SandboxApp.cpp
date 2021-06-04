@@ -6,11 +6,9 @@ class Sandbox : public Solo::Application
 public:
 	Sandbox()
 	{
-
 	}
 	~Sandbox()
 	{
-
 	}
 
 };

@@ -5,7 +5,6 @@
 		#define SOLO_API __declspec(dllexport)	//Тогда экспортируем его в наследуемое приложение SandboxApp
 	#else
 		#define SOLO_API __declspec(dllimport)	//Иначе, импортируем его из "родительского" приложения(SoloEngine)
-
 	#endif // SOLO_BUILD_DLL
 
 #endif // SL_PLATFORM_WINDOWS
